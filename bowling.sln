@@ -1,13 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
+VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bowling", "bowling.csproj", "{2CA2E598-202D-4A4F-B579-298E43652D89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bowling.test", "..\bowling.test\bowling.test.csproj", "{9D9B410A-0F37-4A5A-862F-DB9BE7474863}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CA2E598-202D-4A4F-B579-298E43652D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CA2E598-202D-4A4F-B579-298E43652D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CA2E598-202D-4A4F-B579-298E43652D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CA2E598-202D-4A4F-B579-298E43652D89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D9B410A-0F37-4A5A-862F-DB9BE7474863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D9B410A-0F37-4A5A-862F-DB9BE7474863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D9B410A-0F37-4A5A-862F-DB9BE7474863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D9B410A-0F37-4A5A-862F-DB9BE7474863}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1FD4C145-2E98-43C9-8B7B-C71481899AB0}
+		SolutionGuid = {CA607B85-2F8B-413B-AE93-8CF11F700B8A}
 	EndGlobalSection
 EndGlobal
