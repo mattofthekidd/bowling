@@ -28,7 +28,11 @@
   <ItemGroup>
     <Folder Include="Commands\Frames\" />
     <Folder Include="Commands\Rolls\" />
-    <Folder Include="Constants\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\bowling.BLL\bowling.BLL.csproj" />
+    <ProjectReference Include="..\bowling.DAL\bowling.DAL.csproj" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
