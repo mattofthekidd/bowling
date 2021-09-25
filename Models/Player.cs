@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 namespace bowling.Models {
     public class Player : Person {
         public int PlayerId { get; set; }
-        public IEnumerable<Frame> Frames { get; set; }
+        public int TotalScore { get; set; }
+        public IList<Frame> Frames { get; set; }
       
     }
 }

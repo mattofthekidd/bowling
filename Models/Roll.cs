@@ -8,6 +8,7 @@ namespace bowling.Models {
     //and also track the total for all roles
     public class Roll {
         public int Id { get; set; }
+        public int FinalFrameScore { get; set; }
 
 
 
@@ -21,6 +22,6 @@ namespace bowling.Models {
 
 
         //Total scores per frame, calculated values
-        public IEnumerable<int> TotalScores { get; set; }
+        //public IEnumerable<int> TotalScores { get; set; }
     }
 }

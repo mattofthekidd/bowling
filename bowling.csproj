@@ -16,6 +16,7 @@
     <PackageReference Include="MediatR" Version="9.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.17" />
     <PackageReference Include="NBuilder" Version="6.1.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,8 +27,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\Frames\" />
-    <Folder Include="Commands\Rolls\" />
     <Folder Include="Constants\" />
   </ItemGroup>
 

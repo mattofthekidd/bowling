@@ -7,7 +7,6 @@ namespace bowling.Models {
     public class Game {
         public int Id { get; set; }
         public int TotalScore { get; set; }
-        public List<Player> Players { get; set; }
-        
+        public IList<Player> Players { get; set; }
     }
 }
