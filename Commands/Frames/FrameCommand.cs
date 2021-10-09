@@ -21,7 +21,7 @@ namespace bowling.Commands.Frames {
 
             for (var i = 0; i <= command.Rolls.Count - 2; i += 2) {
                 if (i == 18) {
-                    rollHandler(command.Rolls[i]
+                    //rollHandler(command.Rolls[i]
                 }
             }
 
