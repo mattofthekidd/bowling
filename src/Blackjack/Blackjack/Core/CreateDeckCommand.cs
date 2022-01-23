@@ -5,9 +5,9 @@ using Blackjack.Constants;
 using Blackjack.Models;
 using Medallion;
 
-namespace Blackjack.Commands {
+namespace Blackjack.Core {
 	public class CreateDeckCommand {
-		public DeckModel CreateDeck() {
+		public DeckModel GetNewDeck() {
 			var deck = GenerateDeck();
 			deck = ShuffleDeck(deck);
 		
